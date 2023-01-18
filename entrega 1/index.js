@@ -59,3 +59,4 @@ productManager1.addProduct("zapatilla umbro","Description..",100,"https://umbro.
 console.log(productManager1.getProductById(3))
 console.log(productManager1.getProductById(4))
 console.log(productManager1.getProducts())
+//
