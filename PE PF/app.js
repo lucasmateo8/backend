@@ -38,7 +38,7 @@ app.get('/products/:pid', (req, res) => {
 })
 
 const server = app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+  console.log(`Escuchando al puerto ${PORT}`);
 })
 
 server.on('error', err => {
